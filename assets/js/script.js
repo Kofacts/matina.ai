@@ -55,28 +55,7 @@ $(document).ready(function () {
         }
     });
 
-    $(document).ready(function () {
-        ToggleScrollUp();
 
-        $(window).scroll(function () {
-            ToggleScrollUp();
-        });
-
-        $('#scrollup').click(function () {
-            $("html, body").animate({
-                scrollTop: 0
-            }, 500);
-            return false;
-        });
-    });
-
-    function ToggleScrollUp() {
-        if ($(".yourbox").offset().top < $(window).scrollTop() + $(window).height()) {
-            $('#scrollup').fadeIn();
-        } else {
-            $('#scrollup').fadeOut();
-        }
-    }
 
     //scroll nav
 

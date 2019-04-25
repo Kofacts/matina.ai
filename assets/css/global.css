@@ -20,6 +20,9 @@ html {
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'Muli';
+}
 .navbar-orange {
     background-color: rgba(51, 155, 178, 0.62);
     color: white !important;
